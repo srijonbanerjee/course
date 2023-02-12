@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="coursecss.css">
+  <title>My Organization - Online Courses</title>
+</head>
+<body>
+  <header>
+    <h1>My Organization</h1>
+    <nav>
+      <ul>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="courses">
+      <h2>Our Courses</h2>
+      <ul>
+        <li>
+          <h3>Introduction to Web Development</h3>
+          <p>Learn the basics of web development and build your own website from scratch.</p>
+          <button>Purchase</button>
+        </li>
+        <li>
+          <h3>Data Science Fundamentals</h3>
+          <p>Gain a solid understanding of data science and learn how to analyze and visualize data.</p>
+          <button>Purchase</button>
+        </li>
+        <li>
+          <h3>Machine Learning</h3>
+          <p>Learn how to build and train machine learning models and make predictions using data.</p>
+          <button>Purchase</button>
+        </li>
+      </ul>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a team of experts dedicated to providing high-quality online courses in a variety of fields. Our mission is to make education accessible and affordable for everyone.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © My Organization 2023</p>
+  </footer>
+</body>
+</html>
